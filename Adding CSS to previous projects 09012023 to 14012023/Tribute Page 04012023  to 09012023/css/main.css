@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#hr{
+    visibility: hidden;;
+}
+
+h1, h2{
+    text-align: center;
+    color: #979797;
+}
+
+nav{
+    background-color: #c5c5c5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: sticky;
+    top: 0em;
+    z-index: 1;
+}
+
+nav a button{
+    width: max-content;
+    background: none;
+    border: none;
+    transition: 1s;
+    margin: 0% 0%;
+    padding: 1em 2em;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+nav a button:hover{
+    background-color: #000000;
+    color: #c5c5c5;
+    letter-spacing: 0.3em;
+}
+
+button{
+    cursor: pointer;
+}
+
+a#foot{
+    margin-left: 50%;
+}

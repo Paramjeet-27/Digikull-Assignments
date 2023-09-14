@@ -1,0 +1,73 @@
+body{
+    background-image: url(../images/romantic-composition\ 1.jpg);
+    background-size: 80%;
+}
+
+h1, h3.heading{
+    text-align: center;
+    color: rgb(115, 18, 167);
+}
+
+h3{
+    color: rgb(115, 18, 167);
+}
+
+section#h{
+    border: solid 2px transparent;
+    background-color: rgb(245, 245, 245);
+    opacity: 0.95;
+    border-radius: 10px;
+}
+
+section.body{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+form{
+    background-color: rgb(245, 245, 245);
+    opacity: 0.96;
+    width: 70%;
+    padding: 2%;
+}
+
+fieldset{
+    border: dotted rgb(115, 18, 167) 2px;
+}
+
+label{
+    padding: 2px;
+    margin: 2px;
+    width: 50%;
+}
+
+textarea, input{
+    transition-duration: 0.2s;
+    background-color: rgb(255, 255, 255);
+}
+
+textarea:hover, input:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+section.body{
+    justify-content:space-around;
+}
+
+input.fbutton{
+    border: solid 2px rgb(115, 18, 167);
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 0.5em 1em;
+    width: 150px;
+    height: 50px;
+    color: rgb(115, 18, 167);
+    background-color: white;
+}
+
+input.fbutton:hover{
+    color: white;
+    background-color: rgb(115, 18, 167);
+    border-radius: 15px;
+}

@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S t o p - W a t c h</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="main">
+            <h2>Stopwatch</h2>
+            <p>
+                <span id="hour"></span><span>hours </span>
+                <span id="minute"></span><span>minutes </span>
+                <span id="second"></span><span>seconds</span>
+            </p>
+        </div>
+        <div id="buttons">
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>

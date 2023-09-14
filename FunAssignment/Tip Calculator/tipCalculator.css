@@ -1,0 +1,95 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.outerBox {
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: 1s;
+    background-color: lightgrey;
+}
+div.heading{
+    height: 3rem;
+    background-color: rgb(93, 93, 255);
+    border-radius: 0.5rem 0.5rem 0.2rem 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p#h1 {
+    color: white;
+    font-size: 14pt;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.f1, .f2, .f3 {
+    margin-top: 1%;
+    padding: 0.8rem;
+}
+
+h1 {
+    margin-top: 0%;
+}
+
+p {
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+div.result p {
+    margin-top: -4%;
+    text-align: center;
+}
+
+input, select {
+    background-color: rgb(227, 225, 225);
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    font-size: 10pt;
+    transition: 0.5s;
+}
+
+input:hover{
+    background-color: white;
+    border: solid 1px grey;
+}
+
+select {
+    width: 12rem;
+    height: 2rem;
+}
+
+select:hover {
+    background-color: white;
+    border: grey;
+}
+
+button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 8%;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
+    background-color: red;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+    letter-spacing: 0.2rem;
+    background-color: rgb(255, 109, 109);
+}

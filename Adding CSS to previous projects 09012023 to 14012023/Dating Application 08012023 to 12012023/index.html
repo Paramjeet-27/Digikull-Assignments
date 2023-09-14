@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Applicaiton</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <section id="h">
+        <h1>Application Form</h1>
+        <h3 class="heading">for finding and eligible match to date my daugher.</h3>
+    </section>
+    <section class="body">
+        <form action="https://abc.com/target.php" method="get">
+            <fieldset>
+                <legend>
+                    <h3>Personal Details</h3>
+                </legend>
+                <label for="name">
+                    Full Name:
+                </label>
+                <input type="text" id="name" name="full_name" placeholder="Full Name....">
+                <br>
+                <br>
+                <label for="phone">
+                    Phone Number:
+                </label>
+                <input type="tel" name="phone_number" id="phone" placeholder="+91-123456789">
+                <br>
+                <br>
+                <label for="email">
+                    Email Address:
+                </label>
+                <input type="email" name="email" id="email" placeholder="example@example.com">
+                <br>
+                <br>
+                Gender:
+                <br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">
+                    Male
+                </label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">
+                    Female
+                </label>
+                <input type="radio" name="gender" id="trans" value="transgender">
+                <label for="trans">
+                    Transgender
+                </label>
+                <br>
+                <br>
+                <label for="education">
+                    Highest Educational Qualification:
+                </label>
+                <select name="education_level" id="education">
+                    <option value="metric">Metric</option>
+                    <option value="certificate">Certificate</option>
+                    <option value="high">High School</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="postgrad">Post Graduation</option>
+                    <option value="phd">Doctrate of Philosophy</option>
+                    <option value="mphil">Masters of Philosophy</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Outing Proposal</h3>
+                </legend>
+                <label for="date">
+                    Date for outing:
+                </label>
+                <input type="date" name="outing_date" id="date">
+                <br>
+                <br>
+                <label for="time">
+                    Time for outing:
+                </label>
+                <input type="time" name="outing_time" id="time">
+                <br>
+                <br>
+                <label for="place">
+                    Place for outing:
+                </label>
+                <select name="location" id="place">
+                    <option value="public">Public</option>
+                    <option value="private">Private</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Other Details</h3>
+                </legend>
+                <b>Select all that apply</b>
+                <br>
+                <input type="checkbox" name="" id="option1" value="piercing">
+                <label for="option1">
+                    I have tattoos and/or piercings.
+                </label>
+                <br>
+                <input type="checkbox" name="" id="option2" value="older">
+                <label for="option2">
+                    I am more than 2 years older than your daughter.
+                </label>
+                <br>
+                <input type="checkbox" name="" id="option3" value="yes">
+                <label for="option3">
+                    I own a panel van or Ferrari.
+                </label>
+                <br>
+                <input type="checkbox" name="" id="option4" value="work">
+                <label for="option4">
+                    I work full-time
+                </label>
+                <br>
+                <input type="checkbox" name="" id="option5" value="rich">
+                <label for="option5">
+                    My parents are rich
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Detailed Response</h3>
+                </legend>
+                <label for="reason">
+                    Why do you want to date my daughter?
+                </label>
+                <br>
+                <textarea name="reason for dating" id="reason" cols="60" rows="5"
+                    placeholder="Write at least 50 words...." minlength="50"></textarea>
+                <br>
+                <br>
+                <label for="reference">
+                    One reference contact point:
+                </label>
+                <br>
+                <textarea name="contact_reference" id="reference" cols="60" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Uploading Documents</h3>
+                </legend>
+                <label for="bank">
+                    Bank Statement:
+                </label>
+                <input type="file" name="bank_statement" id="bank">
+                <br>
+                <br>
+                <label for="edu">
+                    College Degree:
+                </label>
+                <input type="file" name="degree" id="edu">
+                <br>
+                <br>
+                <label for="idproof">
+                    Identity Proof:
+                </label>
+                <input type="file" name="identity_proof" id="idproof">
+            </fieldset>
+            <section class="body">
+                <input type="submit" value="Submit" class="fbutton">
+                <input type="reset" value="Reset Form" class="fbutton">
+            </section>
+        </form>
+    </section>
+</body>
+
+</html>

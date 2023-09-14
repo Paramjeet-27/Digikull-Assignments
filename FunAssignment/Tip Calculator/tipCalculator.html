@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tipCalculator.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="outerBox">
+            <div class="heading">
+                <p id="h1">Tip Calculator</p>
+            </div>
+            <div class="ipForm">
+                <form>
+                    <div class="f1">
+                        <p>Enter your bill ammount:</p>
+                        <label for="bill">Rs.
+                            <input type="number" name="billAmmount" id="bill">
+                        </label>
+                    </div>
+                    <br>
+                    <div class="f2">
+                        <p>How was the serivce?</p>
+                        <label for="quality">
+                            <select name="serviceQuality" id="quality">
+                                <option value="5">Excellent - 20%</option>
+                                <option value="10">Medium - 10%</option>
+                                <option value="20">Not So Good - 5%</option>
+                            </select>
+                        </label>
+                    </div>
+                    <br>
+                    <div class="f3">
+                        <p>How many people are sharing the bill?</p>
+                        <label for="persons">
+                            <input type="number" name="peopleSharing" id="persons">
+                        </label>
+                    </div>
+                </form>
+                <button id="calculate" onclick="calculateTip()">Calculate</button>
+            </div>
+            <div class="result">
+                <h3>Tip Ammount</h3>
+                <p id = "incorrect">Rs. <span id="result"></span> Each</p>
+            </div>
+        </div>
+    </div>
+    <script src="tipCalculator.js"></script>
+</body>
+
+</html>

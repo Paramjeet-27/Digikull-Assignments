@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Applicaiton</title>
+</head>
+<body>
+    <h1 align = center>APPLICATION FORM</h1>
+    <h3 align = center>For finding and eligible match to date my daugher.</h3>
+    <hr>
+    <form action="https://abc.com/target.php" method="get">
+        <fieldset>
+            <legend><h3>Personal Details</h3></legend>
+            <label for="name">
+                Full Name:
+                <input type="text" id="name" name="full_name" placeholder="Full Name....">
+            </label>
+            <br>
+            <br>
+            <label for="phone">
+                Phone Number:
+                <input type="tel" name="phone_number" id="phone" placeholder="+91-123456789">
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                Email Address:
+                <input type="email" name="email" id="email" placeholder="example@example.com">
+            </label>
+            <br>
+            <br>
+            Gender:
+            <br>
+            <label for="male">
+                <input type="radio" name="gender" id="male">
+                Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">
+                Female
+            </label>
+            <label for="trans">
+                <input type="radio" name="gender" id="trans">
+                Transgender
+            </label>
+            <br>
+            <br>
+            <label for="education">
+                Highest Educational Qualification:
+                <select name="education_level" id="education">
+                    <option value="metric">Metric</option>
+                    <option value="certificate">Certificate</option>
+                    <option value="high">High School</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="postgrad">Post Graduation</option>
+                    <option value="phd">Doctrate of Philosophy</option>
+                    <option value="mphil">Masters of Philosophy</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Outing Proposal</h3></legend>
+            <label for="date">
+                Date for outing:
+                <input type="date" name="outing_date" id="date">
+            </label>
+            <br>
+            <br>
+            <label for="time">
+                Time for outing:
+                <input type="time" name="outing_time" id="time">
+            </label>
+            <br>
+            <br>
+            <label for="place">
+                Place for outing:
+                <select name="location" id="place">
+                    <option value="public">Public</option>
+                    <option value="private">Private</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Other Details</h3></legend>
+            <b>Select all that apply</b>
+            <br>
+            <label for="option1">
+                <input type="checkbox" name="" id="option1">
+                I have tattoos and/or piercings.
+            </label>
+            <br>
+            <label for="option2">
+                <input type="checkbox" name="" id="option2">
+                I am more than 2 years older than your daughter.
+            </label>
+            <br>
+            <label for="option3">
+                <input type="checkbox" name="" id="option3">
+                I own a panel van or Ferrari.
+            </label>
+            <br>
+            <label for="option4">
+                <input type="checkbox" name="" id="option4">
+                I work full-time 
+            </label>
+            <br>
+            <label for="option5">
+                <input type="checkbox" name="" id="option5">
+                My parents are rich 
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Detailed Response</h3></legend>
+            <label for="reason">
+                Why do you want to date my daughter?<br>
+                <textarea name="reason for dating" id="reason" cols="60" rows="5" placeholder="Write at least 50 words...." minlength="50"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="reference">
+                One reference contact point:<br>
+                <textarea name="contact_reference" id="reference" cols="60" rows="5" ></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Uploading Documents</h3></legend>
+            <label for="bank">
+                Bank Statement:
+                <input type="file" name="bank_statement" id="bank">
+            </label>
+            <br>
+            <br>
+            <label for="edu">
+                College Degree:
+                <input type="file" name="degree" id="edu">
+            </label>
+            <br>
+            <br>
+            <label for="idproof">
+                Identity Proof:
+                <input type="file" name="identity_proof" id="idproof">
+            </label>
+        </fieldset>
+        <p align = center>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Form">
+        </p>
+    </form>
+</body>
+</html>

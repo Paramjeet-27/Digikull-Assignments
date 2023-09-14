@@ -1,0 +1,14 @@
+div#image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#image img{
+    transition: 1s;
+    opacity: 0.2;
+}
+
+div#image img:hover{
+    opacity: 1;
+}

@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+h1 {
+    color: lightgray;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -1%;
+}
+h2 {
+    color: lightgray;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#input {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+#inputbox {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#tasks {
+    width: 600px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#add {
+    background-color: lightgray;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#add:hover{
+    border-radius: 0px;
+    font-weight: bold;
+}
+li {
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0px;
+}
+#reset{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+#rest {
+    background-color: lightgray;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1rem;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#rest:hover {
+    border-radius: 0px;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.2rem;
+    text-decoration: underline;
+}
+p {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 40px;
+    word-spacing: 3rem;
+    font-style: italic;
+}
+#hour, #minute, #second {
+    font-size: 92px;
+    font-style: normal;
+}
+
+#buttons {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    border: solid 2px black;
+    transition: 0.5s;
+    background-color: lightgrey;
+    margin: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    width: 12rem;
+    height: 3rem;
+}
+button:hover {
+    border: solid 2px blue;
+    background-color: black;
+    color: lightgray;
+    letter-spacing: 0.3rem;
+}
